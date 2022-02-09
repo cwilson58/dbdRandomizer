@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/dbdRandomBuild.css">
+    <title>Random Killer Build</title>
+</head>
+<body>
+    <p>Work in Progress!</p>
+    <form id = "getBuild" method="get">
+        <input type="submit" value="Get Me a build!">
+        <div>
+            <input type="checkbox" name="The Huntress" id="The Huntress" value="1">
+            <label for="The Huntress">The Huntress</label>
+        </div>
+        <div>
+            <input type="checkbox" name="The Wraith" id="The Wraith" value="2">
+            <label for="The Huntress">The Wraith</label>
+        </div>
+        <div>
+            <input type="checkbox" name="The Trapper" id="The Trapper" value="3">
+            <label for="The Huntress">The Trapper</label>
+        </div>
+        <div>
+            <input type="checkbox" name="The Hillbilly" id="The Hillbilly" value="4">
+            <label for="The Huntress">The Hillbilly</label>
+        </div>
+        <div>
+            <input type="checkbox" name="The Nurse" id="The Nurse" value="5">
+            <label for="The Huntress">The Nurse</label>
+        </div>
+        <div>
+            <input type="checkbox" name="The Doctor" id="The Doctor" value="6">
+            <label for="The Huntress">The Doctor</label>
+        </div>
+    </form>
+    <h1>The Build:</h1>
+    <h5>Killer: </h5>
+    <p id="theKiller"></p>
+    <h5>Addons: </h5>
+    <p id="theAddons"></p>
+    <h5>Perks: </h5>
+    <p id="thePerks"></p>
+    <h5>Offering: </h5>
+    <p id="theOffering"></p>
+    <script src="./scripts/randomKiller.js"></script>
+</body>
+</html>
