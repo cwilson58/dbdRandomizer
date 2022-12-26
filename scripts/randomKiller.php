@@ -1,5 +1,5 @@
 <?php
-    $db = new mysqli(); //REMOVE BEFORE PUTTING ON GITHUB
+    $db = new mysqli("127.0.0.1","webpage","Cr@te#24","dbdProj"); //REMOVE BEFORE PUTTING ON GITHUB
     if ($db->connect_error) {
         die ("Connection failed: " . $db->connect_error);
     }
